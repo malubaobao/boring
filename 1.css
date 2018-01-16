@@ -1,0 +1,124 @@
+.clear{
+	clear:both;
+}
+body{
+	text-align:center;
+}
+div.header_box_banner{
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+	border:1px solid #ddd;
+	background:url("8.jpg");
+}
+div.header_box_shadow{
+	margin:0 auto;
+	width:1024px;
+	position:relative;
+	height:550px;
+	z-index:444;
+}
+div.header_box_img{
+	margin:0 auto;
+	width:100%;
+	height:100%;
+}
+div.header_box_img img{
+	width:40%;
+	position:absolute;
+	top:40%;
+	left:30%;
+	border:2px solid #ddd;
+}
+div.header_box_img img.show{
+	width:40%;
+	position:absolute;
+	top:20%;
+	left:30%;
+	border:2px solid #fff;
+	transition:all 0.5s linear;
+}
+div.header_box_img img.one{
+	width:25%;
+	left:60%;
+	top:25%;
+	z-index:-10;
+	transition:all 0.5s linear;
+}
+div.header_box_img img.two{
+	width:25%;
+	left:75%;
+	top:20%;
+	z-index:-20;
+	transition:all 0.5s linear;
+}
+div.header_box_img img.three{
+	width:25%;
+	left:60%;
+	top:15%;
+	z-index:-30;
+	transition:all 0.5s linear;
+}
+div.header_box_img img.four{
+	width:25%;
+	left:15%;
+	top:15%;
+	z-index:-30;
+	transition:all 0.5s linear;
+}
+div.header_box_img img.five{
+	width:25%;
+	left:0;
+	top:20%;
+	z-index:-20;
+	transition:all 0.5s linear;
+}
+div.header_box_img img.six{
+	width:25%;
+	left:15%;
+	top:25%;
+	z-index:-10;
+	transition:all 0.5s linear;
+}
+.header_box_lt{
+	position:absolute;
+	top:35%;
+	left:0;
+	display:block;
+	width:40px;
+	height:41px;
+	z-index:666;
+	background:url("icon_1.png") -403px -45px;
+}
+.header_box_rt{
+	position:absolute;
+	top:35%;
+	right:0;
+	display:block;
+	width:40px;
+	height:41px;
+	z-index:666;
+	background:url("icon_1.png") -403px -140px;
+}
+.header_box_stop{
+	margin:0 auto;
+	width:100%;
+	top:10%;
+	height:70%;
+	z-index:666;
+	background:#ddd;
+	position:absolute;
+	left:0;
+	opacity:0.5;
+}
+.header_box_stop>p{
+	display:block;
+	margin:0 auto;
+	width:10%;
+	height:10%;
+	background:red;
+	z-index:999;
+	position:absolute;
+	top:45%;
+	left:45%;
+}
